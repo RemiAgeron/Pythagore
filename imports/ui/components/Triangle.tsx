@@ -12,9 +12,9 @@ const Triangle = (values: sideValues): React.ReactElement => (
       <line id="Rect_up" y2="94.33713" x2="195.09991" y1="94.33713" x1="185.09991" stroke="currentColor" />
       <line id="Rect_left" y2="94.33713" x2="185.09991" y1="104.33713" x1="185.09991" stroke="currentColor" />
 
-      <text id="Text_A" xmlSpace="preserve" text-anchor="start" font-size="24" y="64.30367" x="203.28955" stroke-width="0" fill="currentColor" >{values.sideA || "A"}</text>
-      <text id="Text_B" xmlSpace="preserve" text-anchor="middle" font-size="24" y="131.13076" x="103.85337" stroke-width="0" fill="currentColor">{values.sideB || "B"}</text>
-      <text id="Text_C" xmlSpace="preserve" text-anchor="end" font-size="24" y="47.7185" x="90.95425" stroke-width="0" fill="currentColor">{values.sideC || "C"}</text>
+      <text id="Text_A" xmlSpace="preserve" textAnchor="start" fontSize="24" y="64.30367" x="203.28955" strokeWidth="0" fill="currentColor" >{values.sideA || "A"}</text>
+      <text id="Text_B" xmlSpace="preserve" textAnchor="middle" fontSize="24" y="131.13076" x="103.85337" strokeWidth="0" fill="currentColor">{values.sideB || "B"}</text>
+      <text id="Text_C" xmlSpace="preserve" textAnchor="end" fontSize="24" y="47.7185" x="90.95425" strokeWidth="0" fill="currentColor">{values.sideC || "C"}</text>
 
     </g>
   </svg>
