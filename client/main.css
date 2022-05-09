@@ -1,4 +1,9 @@
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: dimgrey;
+  }
+}
+
 body {
-  padding: 10px;
   font-family: sans-serif;
 }
